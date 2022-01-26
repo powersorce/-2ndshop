@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			">
+
+	<bean class="controller.oneonone.OneOnOneController" />
+
+	<bean class="service.oneonone.OneOnOneService" />
+	<bean class="service.oneonone.OneOnOneRegistService" />
+	<bean class="service.oneonone.OneOnOneDetailService" />
+	<bean class="service.oneonone.OneOnOneDeleteService" />
+	<bean class="service.oneonone.OneOnOneEmployeeService" />
+	<bean class="service.oneonone.OneOnOneEmployeeDetailService" />
+	<bean class="service.oneonone.OneOnOneModifyService" />
+
+	<bean class="repository.OneOnOneRepository" />
+</beans>
